@@ -1,6 +1,7 @@
 name: deploy static website to AWS-S3 bucket practise
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
